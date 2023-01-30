@@ -1,4 +1,4 @@
-const reverse = require('./reverse');
+const reverse = require('../scripts/reverse');
 
 test('Test Name', () => {
   expect(reverse('hello')).toBe('olleh');

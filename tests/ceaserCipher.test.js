@@ -1,4 +1,4 @@
-const ceaserCipher = require('./ceasarCipher');
+const ceaserCipher = require('../scripts/ceasarCipher');
 
 test('a to z', () => {
   expect(

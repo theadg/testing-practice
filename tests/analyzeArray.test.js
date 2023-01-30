@@ -1,4 +1,4 @@
-const analyzeArray = require('./analyzeArray');
+const analyzeArray = require('../scripts/analyzeArray');
 
 test('Works with array', () => {
   expect(analyzeArray([1, 8, 3, 4, 2, 6])).toStrictEqual({
